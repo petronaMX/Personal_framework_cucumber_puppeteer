@@ -1,0 +1,97 @@
+[
+  {
+    "description": "    As a user\n    I can login to the application",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "features\\login.feature",
+    "elements": [
+      {
+        "id": "login;user-can-login-to-de-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User can login to de application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\stepsLogin.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 588000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the login page",
+            "match": {
+              "location": "features\\support\\stepsLogin.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter my username and password",
+            "match": {
+              "location": "features\\support\\stepsLogin.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "features\\support\\stepsLogin.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be redirected to the application content",
+            "match": {
+              "location": "features\\support\\stepsLogin.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\stepsLogin.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1354000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

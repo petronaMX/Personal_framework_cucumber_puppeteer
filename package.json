@@ -1,0 +1,20 @@
+{
+  "name": "personal_framework_cucumber_puppeteer",
+  "version": "1.0.0",
+  "description": "Framework para pruebas automatizadas con Cucumber y Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:cucumber_report.json",
+    "report": "node report.js"
+  },
+  "keywords": [],
+  "author": "Jesús Petrona Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^5.5.0",
+    "prettier": "^3.4.1",
+    "puppeteer": "^21.11.0"
+  }
+}
